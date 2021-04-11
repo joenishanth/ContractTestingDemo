@@ -4,15 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine",
+    "testTs": "jasmine-ts \"./spec/**/*.spec.ts\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
-    "jasmine": "^3.5.0",
+    "@types/jasmine": "^3.6.9",
+    "@types/jsonpath-plus": "^5.0.1",
+    "axios": "^0.21.1",
+    "jasmine": "^3.7.0",
     "json-plus": "^1.0.0",
-    "jsonpath-plus": "^4.0.0"
+    "jsonpath-plus": "^4.0.0",
+    "typescript": "^3.7.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.24.0",
+    "jasmine-ts": "^0.3.2",
+    "ts-node": "^9.1.1"
   }
 }
