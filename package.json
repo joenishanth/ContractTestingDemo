@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "testTs": "jasmine-ts \"./spec/**/*.spec.ts\""
+    "testTs": "jasmine-ts \"./spec/**/*.spec.ts\"",
+    "test2": "jasmine-ts --config=\"./spec/support/jasmine.json\""
   },
   "keywords": [],
   "author": "",
