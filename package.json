@@ -14,7 +14,7 @@
   "dependencies": {
     "@types/jasmine": "^3.6.9",
     "@types/jsonpath-plus": "^5.0.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "jasmine": "^3.7.0",
     "json-plus": "^1.0.0",
     "jsonpath-plus": "^4.0.0",
